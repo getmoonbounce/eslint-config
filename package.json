@@ -1,0 +1,21 @@
+{
+  "name": "tsconfig",
+  "version": "1.0.0",
+  "description": "Moonbounce TypeScript starter.",
+  "license": "UNLICENSED",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./dist/index.js",
+    "./*": "./dist/*/index.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.5.0",
+    "typescript": "^4.6.0-dev.20211229"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  }
+}
