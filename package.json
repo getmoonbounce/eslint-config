@@ -1,21 +1,26 @@
 {
-  "name": "tsconfig",
+  "name": "@moonbounce/eslint-config",
+  "type": "module",
   "version": "1.0.0",
-  "description": "Moonbounce TypeScript starter.",
-  "license": "UNLICENSED",
+  "description": "ESLint config that forces standard TypeScript formatting and arrow functions.",
+  "license": "MIT",
+  "contributors": [
+    "C. Lewis <ctj.lewis@icloud.com>",
+    "Jacob Cooper <jacobsreturn@gmail.com>"
+  ],
   "exports": {
     "./package.json": "./package.json",
     ".": "./dist/index.js",
     "./*": "./dist/*/index.js"
   },
   "devDependencies": {
+    "@types/node": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
     "eslint": "^8.5.0",
-    "typescript": "^4.6.0-dev.20211229"
+    "typescript": "^4.5.4"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc -w"
+    "build": "tsm build"
   }
 }

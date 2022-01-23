@@ -1,6 +1,5 @@
 {
   "include": [
-    "next-env.d.ts",
     "src/**/*"
   ],
   "exclude": [
