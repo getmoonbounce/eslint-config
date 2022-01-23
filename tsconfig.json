@@ -35,6 +35,6 @@
     "noEmit": false,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
-    "incremental": true
+    "incremental": false
   }
 }
