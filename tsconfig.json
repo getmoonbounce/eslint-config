@@ -20,7 +20,7 @@
     "outDir": "dist",
     "allowJs": true,
     "importHelpers": true,
-    "esModuleInterop": true,
+    "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "noUnusedLocals": true,
