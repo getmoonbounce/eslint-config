@@ -5,8 +5,7 @@
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
   "rules": {
-
-    "prefer-arrow-callback": ["error", 2],
+    
     "no-console": "error",
     "no-trailing-spaces": "error",
     "max-len": [1, 80, 2, {
