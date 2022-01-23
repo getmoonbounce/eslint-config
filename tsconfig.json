@@ -9,7 +9,7 @@
   "compilerOptions": {
     "moduleResolution": "Node",
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "commonjs",
     "lib": [
       "DOM",
       "DOM.Iterable",
