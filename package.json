@@ -1,7 +1,7 @@
 {
   "name": "@moonbounce/eslint-config",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config that forces standard TypeScript formatting and arrow functions.",
   "license": "MIT",
   "contributors": [

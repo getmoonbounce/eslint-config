@@ -1,23 +1,3 @@
-# tsconfig starter
+# Moonbounce ESLint Config
 
-A starter template for a project with TypeScript and ESLint.
-
-### First-time setup
-
-Install packages:
-
-```
-yarn
-```
-
-### Develop
-
-```
-yarn dev
-```
-
-### Build
-
-```
-yarn build
-```
+An ESLint config that forces standard TypeScript formatting and arrow functions.
